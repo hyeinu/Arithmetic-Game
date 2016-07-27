@@ -1,0 +1,29 @@
+h2{
+  font-family: verdana;
+  color: pink;
+}
+
+p{
+  display: inline;
+  font-family: verdana;
+  font-size: 25px;
+  color: purple;
+}
+
+#answer{
+  height: 25px;
+  width: 100px;
+  font-size: 25px;
+  border-bottom: 5px solid pink;
+  color: purple;
+  font-family: verdana;
+}
+
+button{
+  font-family: verdana;
+  font-size: 15px;
+  background-color: Indianred;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
