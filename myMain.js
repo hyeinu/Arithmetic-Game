@@ -27,7 +27,8 @@ function init(){
         yeSound.pause();
         yeSound.currentTime = 0;
 
-        alert("You are correct!");
+        document.getElementById("result").textContent = "You are correct!";
+        // alert("You are correct!");
 
       }, 2000);
 
@@ -39,10 +40,10 @@ function init(){
       document.getElementById('answer').textContent = sumAns;
       var sadSound = document.getElementById("noSound");
       sadSound.play()
+      document.getElementById("result").textContent = "Incorrect. Try again!"
       setTimeout(function(){
         sadSound.pause();
         sadSound.currentTime = 0;
-        alert("Not Correct :( Please try another!")
       }, 2500);
 
       setTimeout(function(){
